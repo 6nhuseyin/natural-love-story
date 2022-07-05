@@ -22,34 +22,42 @@ section {
     margin-right: auto;
 }
 
+
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
     padding: 7px;
-    max-width: 440px;
+    max-width: 360px;
     margin: auto;
 }
 
 img {
-    max-width: 440px;
-    max-height:600px;
+    max-width: 360px;
 }
 
 figcaption {
-    background-color: #222;
+    background-color: #018f77;
     color: #fff;
     font: italic smaller sans-serif;
+    font-size: xx-small;
     padding: 3px;
     text-align: center;
 }
 
 h1, h2, h3 {
     color: #ee230c;
-    /*text-align: center;*/
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
-    color: #4dde1d;
-    font-size:medium;
+    color: #4a6192;
+}
+
+a.altyazi, p.altyazi {
+    max-width: 330px;
+    font-size: xx-small;
+    text-align: right;
 }
