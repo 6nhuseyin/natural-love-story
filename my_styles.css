@@ -1,28 +1,33 @@
+* { margin: 0, padding: 0 }
+
 body {
+    color:#018f77;
+    margin: 0;
     font-family: sans-serif;
+    padding: 0;
+    /*padding: 30px;*/
 }
+/*HEADER*/
 
 header {
-    margin:0;
-    padding: 0;
+    background-color: #018f77;
+    padding: 1%;
 }
+
+/*MAIN*/
 
 main {
     margin: 0;
     padding: 5px;
-    /*background-color: #80b8c5;*/
+    /*background-color: #c3dde0;*/
     /*width: 80%;*/
-    
 }
 
 section {
-   /*background-color: #018f77;*/
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-
-
 
 figure {
     border: thin #c0c0c0 solid;
@@ -42,22 +47,58 @@ figcaption {
     color: #fff;
     font: italic smaller sans-serif;
     font-size: xx-small;
-    padding: 3px;
+    padding: 3%;
     text-align: center;
 }
 
-h1, h2, h3 {
+
+h1 {
+    color: white;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3%;
+}
+
+h2, h3 {
     color: #ee230c;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
 }
 
 a {
-    color: #4a6192;
+    color: wheat;
 }
 
 a.altyazi, p.altyazi {
     max-width: 330px;
-    font-size: xx-small;
+    font-size: x-small;
     text-align: right;
+}
+
+/*a:active {
+    background-color: white;
+}*/
+
+a:hover {
+    color: rgb(104, 224, 64);
+}
+
+a:visited {
+    color: rgb(237, 18, 59); 
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 8px;
+    color: #fff;
+    background-color: #018f77;
+    padding: 1%;
 }
